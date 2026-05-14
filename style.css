@@ -24,7 +24,7 @@ body, html {
     width: 100%;
     max-width: 480px; 
     height: 100vh;
-    height: 100dvh;
+    height: 150dvh;
     background: rgba(255, 255, 255, 0.1); /* Jemný podklad pod hrou */
     box-shadow: 0 0 50px rgba(0,0,0,0.3); /* Stín, aby hra vynikla */
 }
