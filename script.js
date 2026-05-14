@@ -368,8 +368,8 @@
         if (newScore > score) {
           score = newScore;
           document.getElementById("scoreEl").textContent = score;
-          if (score >= 100 && currentLevel === 1) startLevelTransition(2);
-          if (score >= 200 && currentLevel === 2) startLevelTransition(3);
+          if (score >= 2000 && currentLevel === 1) startLevelTransition(2);
+          if (score >= 4000 && currentLevel === 2) startLevelTransition(3);
           if (score > highScore) {
             highScore = score;
             localStorage.setItem("doodle-high-score", highScore);
